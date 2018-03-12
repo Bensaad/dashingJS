@@ -1,6 +1,6 @@
 [![Coverage Status](https://coveralls.io/repos/github/Bensaad/dashingJS/badge.svg?branch=master)](https://coveralls.io/github/Bensaad/dashingJS?branch=master)
 
-https://travis-ci.org/Bensaad/dashingJS.svg?branch=master
+[![Build Status](https://travis-ci.org/Bensaad/dashingJS.svg?branch=master)](https://travis-ci.org/Bensaad/dashingJS)
 
 # DashingJS
 
