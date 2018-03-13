@@ -2,6 +2,8 @@
 
 [![Build Status](https://travis-ci.org/Bensaad/dashingJS.svg?branch=master)](https://travis-ci.org/Bensaad/dashingJS)
 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/1e00c2d774a74e298a9f51638e3c3563)](https://www.codacy.com/app/Bensaad/dashingJS?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=Bensaad/dashingJS&amp;utm_campaign=Badge_Grade)
+
 # DashingJS
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.5.
