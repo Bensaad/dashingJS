@@ -1,0 +1,9 @@
+@import "~sass/variables";
+@import "~bourbon/core/bourbon";
+h1{
+    color: #FFFFFF;
+    @include border-style(dashed null solid);
+}
+h2{
+     color: #FFFFFF;
+}
