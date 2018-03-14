@@ -22,5 +22,18 @@ install:
 script:
   # Use Chromium instead of Chrome.
   - export CHROME_BIN=chromium-browser
+  - xvfb-run -a npm run test:cover -- --single-run --no-progress --browser=ChromeNoSandbox
   - xvfb-run -a npm run test -- --single-run --no-progress --browser=ChromeNoSandbox
   - xvfb-run -a npm run e2e -- --no-progress --config=protractor-ci.conf.js
+
+after_success:
+  - npm run coverolls
+  - npm run build:gh-pages:demo1
+deploy:
+  provider: pages
+  skip-cleanup: true
+  github-token: $GITHUB_TOKEN  # Set in travis-ci.org dashboard, marked secure
+  keep-history: true
+  on:
+    branch: master
+    branch: feat/gh_pages_travis
